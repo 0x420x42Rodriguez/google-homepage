@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Homepage</title>
+	<style type="text/css">
+		
+		#top_navbar {
+    		position: fixed;
+    		top: 0;
+    		right: 0;
+    		padding-top: 20px;
+		}
+		
+
+
+		#header {
+			width: 100px;
+			padding-top: 10px;
+			font-size: 13px;
+		}
+
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 100px;
+			width: 30%;
+		}		
+
+		#search {
+			margin-right: auto;
+			margin-left: auto;
+			width: 20%;
+		}
+
+		button {
+			    float: left;
+   			 	width: auto;
+    			padding: 10px;
+    			background: #2196F3;
+    			color: white;
+    			font-size: 17px;
+    			border: 1px solid gray;
+        		border-left-width: 1px;
+        		border-left-style: solid;
+        		border-left-color: gray;
+    			border-left: none;
+    			cursor: pointer;
+    			margin-right: 10px;
+    			margin-top: 5px;		
+		}
+
+		form.example::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		body, html {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			height: 100px;
+			margin: 0;
+			font-family: arial
+		}
+
+		#wrapper {
+			min-height: 100%;
+			position: relative;
+		}
+
+		#footer {
+			position: absolute;
+			height: 20px;
+			width: 100%;
+			bottom: 3px;
+			padding-top: 15px;
+			background: #f2f2f2
+			font-size: 13px;
+		}
+
+		#top_navbar li {
+ 		   display: inline;
+    	   padding-right: 10px;
+		}
+
+		element {
+    		color: white;
+		}
+		#signinbutton:hover {
+    		text-decoration: none;
+		}
+		#top_navbar li a {
+    		color: #4c4c4c;
+    		font-size: 12px;
+    		padding: 10px;
+		}
+		#signinbutton {
+    		background-color: #4386f8;
+    		border-radius: 4px;
+    		margin-left: 25px;
+    		font-size: 12px;
+    		font-weight: bold;
+		}
+		a:hover {
+    		text-decoration: underline;
+		}
+		li a {
+    		text-decoration: none;
+    		color: grey;
+		}
+		* {
+    		font-family: arial;
+		}
+
+
+	</style>
+
+</head>
+
+<body>
+
+  <div id="header">
+  	<ul id="top_navbar">
+  		<!--
+  		<span class="hleft">
+  			<li><a href="#">About</a></li>
+  			<li><a href="#">Store</a></li>
+  		</span>
+			-->
+  		<!-- <span class="hright"> -->
+  			<li><a href="#">Gmail</a></li>
+  			<li><a href="#">Images</a></li>
+  			<li><a id="signinbutton" class="sign_in">Sign In</a></li>	
+  	<!-- </span> -->
+
+  	</ul>
+  </div>
+
+  <div>
+    <img id="logo" src="./logo.png" alt="google logo">
+  </div>
+
+  <div id="search">
+  	<form class="example" style="margin:auto;max-width:300px">
+  	<input type="text" placeholder="Search Google">
+  	<button>Search</button>
+  	<button>I'm feeling lucky</button>
+  	</form>
+  </div>
+
+  <div id="footer">
+  	<ul>
+  		<span class="fleft">
+  			<li><a href="#">Advertising</a></li>
+  			<li><a href="#">Business</a></li>
+  		</span>
+
+  		<span class="fright">
+  			<li><a href="#">Privacy</a></li>
+  			<li><a href="#">Terms</a></li>
+  			<li><a href="#">Settings</a></li>
+  		</span>
+
+  	</ul>
+  	
+
+
+  </div>
+
+</body>
+</html>
